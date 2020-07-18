@@ -1,0 +1,30 @@
+.place__text{
+  margin: 0;
+  padding: 0;
+  width: 484px;
+  height: 460px;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}
+
+@media and (max-width: 1280px){
+  .place__text{
+    width: 456px;
+    height: 440px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .place__text{
+    width: 352px;
+    height: 340px;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .place__text{
+    width: 90%;
+
+  }
+}
