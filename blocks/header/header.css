@@ -1,12 +1,12 @@
 @import url('../header/__logo/header__logo.css');
 @import url('./__lang/header__lang.css');
-@import url('./__lang/__lang-link/header__lang-link.css');
+@import url('./__lang-link/header__lang-link.css');
+@import url('./__lang-link/_active/header__lang-link_active.css');
 
 .header{
   width: 90%;
   margin: 28px auto 56px;
   padding: 0;
-  height: 52px;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -14,15 +14,28 @@
   position: relative;
 }
 
-@media screen and (max-width: 1280px){
+@media screen and (min-width: 1280px){
   .header{
+    min-width: 1184px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279){
+  .header{
+    min-width: 928px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .header{
+    min-width: 720px;
     margin-bottom: 48px;
   }
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 426px){
   .header{
-    height: 42px;
     margin: 16px auto 48px;
+    min-width: 288px;
   }
 }
