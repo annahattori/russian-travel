@@ -8,7 +8,7 @@
   margin: 0 auto 92px;
   padding: 0;
   width: 90%;
-  min-width: 1184px;
+  max-width: 1184px;
 }
 
 @media screen and (min-width: 1024px){

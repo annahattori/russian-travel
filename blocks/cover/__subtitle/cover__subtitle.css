@@ -2,7 +2,7 @@
   margin: auto;
   padding: 0 0 20%;
   width: 360px;
-  font-family: Inter;
+  font-family: "Inter", "Arial", sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-style: normal;
@@ -13,11 +13,21 @@
   text-align: center;
 }
 
+@media screen and (max-width: 560px){
+  .cover__subtitle{
+    width: 90%;
+    font-size: 18px;
+    line-height: 1.1;
+    padding-bottom: 90px;
+  }
+}
+
 @media screen and (max-width: 426px){
   .cover__subtitle{
     width: 90%;
     font-size: 14px;
     line-height: 1.1;
+    padding-bottom: 33px;
+    
   }
 }
-

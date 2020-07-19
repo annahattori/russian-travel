@@ -2,9 +2,6 @@
   margin: 0;
   padding: 0;
   width: 484px;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px){
@@ -19,14 +16,21 @@
   }
 }
 
-@media screen and (min-width: 426px) and (max-width: 767px){
+@media screen and (min-width: 610px) and (max-width: 767px){
   .place__text{
     width: 268px;
   }
 }
 
-@media screen and (max-width: 426px){
+@media screen and (min-width: 560px) and (max-width: 610px){
+  .place__text{
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 560px){
   .place__text{
     width: 90%;
+    margin: 0 auto;
   }
 }

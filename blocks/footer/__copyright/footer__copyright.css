@@ -2,7 +2,7 @@
   margin: auto 0 0 auto;
   padding: 0;
   color: #fff;
-  font-family: Inter;
+  font-family: "Inter", "Arial", sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-style: normal;
@@ -11,14 +11,16 @@
   line-height: 1.14;
 }
 
-@media screen and (max-width: 768px) and (min-width:515px){
+@media screen and (max-width: 768px) and (min-width:560px){
   .footer__copyright{
     font-size: 12px;
     line-height: 1.1;
   }
 }
 
-@media screen and (max-width:425px){
+
+
+@media screen and (max-width:560px){
   .footer__copyright{
     margin: 0;
   }
